@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Anuja Bharat Sutar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li onclick="showSection('home')" class="active">Home</li>
+                <li onclick="showSection('about')">About</li>
+                <li onclick="showSection('skills')">Skills</li>
+                <li onclick="showSection('projects')">Projects</li>
+                <li onclick="showSection('contact')">Contact</li>
+            </ul>
+        </aside>
+    
+        <!-- Main Content -->
+        <main class="content">
+            <div class="profile-card">
+                <img src="images/profile.jpg" alt="Profile">
+                <h2>Anuja Bharat Sutar</h2>
+                <p>Aspiring Java Developer</p>
+            
+                <div class="profile-actions">
+                    <a href="assets/Anuja_Bharat_Sutar_CV.pdf" download class="btn">
+                        ⬇ Download CV
+                    </a>
+                </div>
+            </div>
+            
+                
+            <!-- About -->
+            <section id="about" class="section">
+                <div class="about-container">
+    
+                    <div class="profile-card">
+                        <img src="images/profile.jpg" alt="Profile">
+                        <h2>Anuja Bharat Sutar</h2>
+                        <p>Aspiring Java Developer</p>
+                    </div>
+    
+                    <div class="about-info">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a motivated student aiming to build a strong career as a Java Developer.
+                            I enjoy creating applications using Java, JDBC, JSP, and web technologies.
+                        </p>
+    
+                        <h3>Education</h3>
+                        <p>Computer Science Student</p>
+    
+                        <h3>Career Goal</h3>
+                        <p>To become a skilled Java Developer and work on real-world applications.</p>
+                    </div>
+    
+                </div>
+            </section>
+    
+            <!-- Skills -->
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <span>Java</span>
+                    <span>JDBC</span>
+                    <span>JSP</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                </div>
+            </section>
+    
+            <!-- Projects -->
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Student Management System (Java)</li>
+                    <li>CRUD Application using JDBC</li>
+                    <li>Portfolio Website</li>
+                </ul>
+            </section>
+    
+            <!-- Contact -->
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Email: yourmail@example.com</p>
+                <p>GitHub: github.com/yourusername</p>
+            </section>
+    
+        </main>
+    
+    </div>
+    
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>
